@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yunalescca.swedishpronunciations">
+
+
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_svapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity android:name=".controllers.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".controllers.LetterActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <activity
+            android:name=".controllers.Recorder"
+            android:exported="true"
+            android:label="Recorder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".controllers.AboutActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+
+        <activity
+            android:name=".controllers.TutorialActivity"
+            android:exported="true"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".controllers.ResultActivity"
+            android:exported="true"
+            android:label="SvApp" />
+
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".controllers.VowelMenuActivity" />
+
+        <activity android:name=".controllers.AchievementListActivity" />
+        <activity android:name=".controllers.AchievementActivity"></activity>
+
+    </application>
+
+</manifest>

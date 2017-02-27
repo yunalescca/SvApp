@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">SvApp</string>
+
+    <!-- LetterActivity -->
+    <string name="title_activity_letter_view">LetterView</string>
+    <string name="letter_activity_letter_view">A</string>
+    <string name="hint_search">hint_search</string>
+
+
+    <!-- VowelMenuActivity -->
+    <string name="menu_vowel_btn"></string>
+    <string name="about">\ All sounds recorded by TruckDriversUnitedz. \nThis app was created by
+        six students from Chalmers University of Technology. \nAllex Nordgren, Emilia Vestlund,
+        Josefin Ulfenborg, Lina Blomkvist, Razmus Strandell, Tove Ekman\ </string>
+</resources>
